@@ -1,0 +1,6 @@
+.element {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 361px;
+}

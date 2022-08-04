@@ -1,5 +1,5 @@
 .page__profile {
-    margin: 42px 0 0;
+    margin: 42px 0 36px;
     padding: 0;
     box-sizing: border-box;
     display: flex;
@@ -13,7 +13,6 @@
     .page__profile{
         margin: 40px 10% 50px;
     }
-
 }
 
 @media screen and (min-width: 1024px){
