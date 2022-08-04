@@ -23,3 +23,10 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url(../../vendor/fonts/inter/Inter-Medium.woff) format('woff'),
+         url(../../vendor/fonts/inter/Inter-Medium.woff2) format('woff2'),
+         url(../../vendor/fonts/inter/Inter-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
