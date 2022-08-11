@@ -32,8 +32,3 @@
 @import url(../blocks/popup/__submit-button/popup__submit-button.css);
 @import url(../blocks/popup/__close-button-container/popup__close-button-container.css);
 @import url(../blocks/popup/_open/popup_hide.css);
-
-/*
-* {
-    border: 1px solid red;
-}
