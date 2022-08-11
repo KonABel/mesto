@@ -1,0 +1,16 @@
+.popup__close-button-container {
+    width: 282px;
+    height: 20px;
+    margin: 87px 0 16px;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: end;
+}
+
+@media screen and (min-width: 800px) {
+    .popup__close-button-container {
+        width: 510px;
+        height: 32px;
+    }
+}

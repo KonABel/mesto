@@ -39,9 +39,16 @@
                 </div>
             </article>
             <article class="element">
-                <img class="element__img" src="./images/photo/karachaevsk.jpg" alt="Карачаевск">
+                <img class="element__img" src="./images/photo/donbai.jpg" alt="Домбай">
                 <div class="element__title-wrapper">
-                    <p class="element__title">Карачаевск</p>
+                    <p class="element__title">Домбай</p>
+                    <img src="./images/like.png" alt="" class="element__like element__like_active">
+                </div>
+            </article>
+            <article class="element">
+                <img class="element__img" src="./images/photo/elbrus.jpg" alt="Гора Эльбрус">
+                <div class="element__title-wrapper">
+                    <p class="element__title">Гора Эльбрус</p>
                     <img src="./images/like.png" alt="" class="element__like element__like_active">
                 </div>
             </article>
@@ -53,23 +60,16 @@
                 </div>
             </article>
             <article class="element">
-                <img class="element__img" src="./images/photo/karachaevsk.jpg" alt="Карачаевск">
+                <img class="element__img" src="./images/photo/donbai.jpg" alt="Домбай">
                 <div class="element__title-wrapper">
-                    <p class="element__title">Карачаевск</p>
+                    <p class="element__title">Домбай</p>
                     <img src="./images/like.png" alt="" class="element__like element__like_active">
                 </div>
             </article>
             <article class="element">
-                <img class="element__img" src="./images/photo/karachaevsk.jpg" alt="Карачаевск">
+                <img class="element__img" src="./images/photo/elbrus.jpg" alt="Гора Эльбрус">
                 <div class="element__title-wrapper">
-                    <p class="element__title">Карачаевск</p>
-                    <img src="./images/like.png" alt="" class="element__like element__like_active">
-                </div>
-            </article>
-            <article class="element">
-                <img class="element__img" src="./images/photo/karachaevsk.jpg" alt="Карачаевск">
-                <div class="element__title-wrapper">
-                    <p class="element__title">Карачаевск</p>
+                    <p class="element__title">Гора Эльбрус</p>
                     <img src="./images/like.png" alt="" class="element__like element__like_active">
                 </div>
             </article>
@@ -78,5 +78,15 @@
     <footer class="footer page__footer">
         <p class="footer__text">&copy; 2022 Mesto Russia</p>
     </footer>
+    <section class="popup page__popup popup_hide">
+        <div class="popup__close-button-container"><button class="popup__close-button"><img src="./images/Close Icon.svg" alt=""></button></div>
+        <form action="" class="popup__edit-form">
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <input type="text" class="popup__input popup__input_name" value="Жак-Ив Кусто">
+            <input type="text" class="popup__input popup__input_about" value="Исследователь океана">
+            <input type="submit" class="popup__submit-button" value="Сохранить">
+        </form>
+    </section>
+    <script src="./pages/index.js"></script>
 </body>
 </html>
