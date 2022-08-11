@@ -4,5 +4,5 @@
 
 Содержит блок popup работа которого основана на JavaScript
 
-* [Ссылка на сайт](https://konabel.github.io/mesto/)
+* [Ссылка на сайт](https://konabel.github.io/mesto/).
 
